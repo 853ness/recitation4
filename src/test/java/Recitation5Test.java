@@ -8,7 +8,7 @@ class Recitation5Test extends OutputTest{
     @DisplayName("[1] 1st test of main")
     void test_main_1() {
         setTestInput("12\n14");
-        Recitation5.main(new String[]{});
+        Recitation4.main(new String[]{});
         String expected = "Enter x:\n" +
                 "Enter y:\n" +
                 "Circles intersect!\n";
@@ -25,7 +25,7 @@ class Recitation5Test extends OutputTest{
     @DisplayName("[1] 2nd test of main")
     void test_main_2() {
         setTestInput("200\n300");
-        Recitation5.main(new String[]{});
+        Recitation4.main(new String[]{});
         String expected = "Enter x:\n" +
                 "Enter y:\n" +
                 "Circles do not intersect!\n";
